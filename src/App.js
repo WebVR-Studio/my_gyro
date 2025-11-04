@@ -1,8 +1,11 @@
 import './App.css';
+import DeviceOrientationComponent from './DeviceOrientationComponent.jsx';
 
 function App() {
   return (
-    <h1>My Test</h1>
+    <div>
+    <DeviceOrientationComponent/>
+    </div>
   );
 }
 
